@@ -35,9 +35,6 @@ jobs:
       - name: Investigate DIR structure
         run: |
           ls
-          cd ..
-          cd ..
-          ls
 
       # Runs a single command using the runners shell
       - name: Log Event JSON
