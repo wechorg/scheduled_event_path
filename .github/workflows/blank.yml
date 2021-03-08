@@ -35,6 +35,7 @@ jobs:
       - name: Investigate DIR structure
         run: |
           cd ..
+          cd ..
           ls
 
       # Runs a single command using the runners shell
