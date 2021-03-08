@@ -34,7 +34,8 @@ jobs:
       - uses: hmarr/debug-action@v1.0.0
       - name: Investigate DIR structure
         run: |
-          pwd
+          cd ~/workflow
+          ls
 
       # Runs a single command using the runners shell
       - name: Log Event JSON
