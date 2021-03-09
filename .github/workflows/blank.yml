@@ -32,19 +32,10 @@ jobs:
           node-version: '15'
       
       - uses: hmarr/debug-action@v1.0.0
-      - name: Investigate DIR structure
-        run: |
-          cd ..
-          cd ..
-          cd ..
-          cd ..
-          cd ..
-          cd ..
-          ls
-          
+      - name: Log event Data
+        run: echo ${{ github.event.schedule.schedule }}
 
-      # Runs a single command using the runners shell
-      - name: Log Event JSON
-        run: node index.js
+      
+          
 
  
